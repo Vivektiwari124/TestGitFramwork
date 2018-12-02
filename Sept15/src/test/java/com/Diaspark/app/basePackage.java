@@ -16,6 +16,7 @@ public class basePackage {
 					"D:\\Sotwarw Selenium\\MyProject\\Sept15\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get("https://gsure.in/");
+			driver.manage().window().maximize();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
