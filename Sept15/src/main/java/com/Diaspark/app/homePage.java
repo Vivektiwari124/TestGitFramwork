@@ -17,6 +17,7 @@ public class homePage {
 			String text = driver.findElement(By.xpath("(//nav/ul/li/a/strong)[" + i + "]")).getText();
 			System.out.println(text);
 			System.out.println(arr[i-1]);
+			System.out.println("dsdsds");
 			
 			int var = arr[i-1].compareTo(text);
 			if (var == 0) {
