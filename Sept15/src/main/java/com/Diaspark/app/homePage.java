@@ -17,11 +17,11 @@ public class homePage {
 			String text = driver.findElement(By.xpath("(//nav/ul/li/a/strong)[" + i + "]")).getText();
 			System.out.println(text);
 
-			if (arr[i].equalsIgnoreCase(text)) {
+			/*if (arr[i].equalsIgnoreCase(text)) {
 				System.out.println("Pass");
 			} else {
 				System.out.println("Fail");
-			}
+			}*/
 		}
 
 	}

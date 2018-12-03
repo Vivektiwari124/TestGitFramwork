@@ -13,10 +13,11 @@ public class basePackage {
 	public void browserInvoke() {
 		try {
 			System.setProperty("webdriver.chrome.driver",
-					"D:\\Sotwarw Selenium\\MyProject\\Sept15\\drivers\\chromedriver.exe");
+					"C:\\Users\\vivek.tiwari\\git\\TestGitFramwork\\Sept15\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get("https://gsure.in/");
 			driver.manage().window().maximize();
+			System.out.println("My Name is vivek");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
