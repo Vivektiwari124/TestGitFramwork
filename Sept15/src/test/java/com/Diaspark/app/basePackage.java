@@ -18,6 +18,8 @@ public class basePackage {
 			driver.get("https://gsure.in/");
 			driver.manage().window().maximize();
 			System.out.println("My Name is vivek");
+			System.out.println("My Name is vivek");
+			System.out.println("My Name is vivek");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
